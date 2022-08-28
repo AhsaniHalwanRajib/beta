@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<title>Email and Password Validation</title>-->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="code/login.css" />
+    <link rel="responsive" href="code_mobile/login.css" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>Daftar</header>
+      <form action=".">
+        <div class="field email-field">
+          <div class="input-field">
+            <input type="email" placeholder="Masukan Email" class="email" />
+          </div>
+          <span class="error email-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Tolong masukan Email dengan benar.</p>
+          </span>
+        </div>
+        <div class="field create-password">
+          <div class="input-field">
+            <input
+              type="password"
+              placeholder="Buat password"
+              class="password"
+            />
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+          <span class="error password-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">
+              Tolong buat paling tidak 8 karakter dengan nomor, simbol, huruf kecil dan besar.
+            </p>
+          </span>
+        </div>
+        <div class="field confirm-password">
+          <div class="input-field">
+            <input
+              type="password"
+              placeholder="Konfirmasi password"
+              class="cPassword"
+            />
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+          <span class="error cPassword-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Password tidak sama</p>
+          </span>
+        </div>
+        <div class="input-field button">
+          <input value="Konfirmasi (Belum tersedia)" />
+        </div>
+        <div class="input-field button">
+          <input value="Masuk (Belum tersedia)" />
+        </div>
+        <div class="input-field button2">
+          <a href="https://github.com/AhsaniHalwanRajib/ahsanirajib/blob/main/stylesheet.css">
+          <input href="https://github.com/AhsaniHalwanRajib/ahsanirajib/blob/main/stylesheet.css" value="Masuk tanpa login" />
+          </a>
+        </div>
+      </form>
+    </div>
+    <div class="version">
+      <a>v1.0 beta test - @ahsani.rajib_</a>
+    </div>
+  </body>
+</html>
+
